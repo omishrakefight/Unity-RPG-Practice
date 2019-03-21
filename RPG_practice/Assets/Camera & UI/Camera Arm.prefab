@@ -38,6 +38,8 @@ GameObject:
   - component: {fileID: 20760371147401258}
   - component: {fileID: 124379357933099358}
   - component: {fileID: 81190448856536274}
+  - component: {fileID: 114345759280396618}
+  - component: {fileID: 114048572367660130}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -51,8 +53,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1840918983409092}
-  m_LocalRotation: {x: -0.26120925, y: 0.016499793, z: -0.0044661425, w: -0.96513087}
-  m_LocalPosition: {x: -0.42664695, y: 4.073934, z: -4.5947456}
+  m_LocalRotation: {x: -0.35533294, y: 0.014577138, z: -0.005542439, w: -0.9346098}
+  m_LocalPosition: {x: -0.014, y: 5.14, z: -4.744}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4710293916152644}
@@ -115,6 +117,33 @@ AudioListener:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1840918983409092}
   m_Enabled: 1
+--- !u!114 &114048572367660130
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1840918983409092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74ccaa5c53b40f746a6bdfa8e401d935, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkCursor: {fileID: 2800000, guid: 382bd01b2f34b164c9eabe2d0b134a19, type: 3}
+  unknownCursor: {fileID: 2800000, guid: 1149a9850f039554bae7aeeae4c3b1cb, type: 3}
+  enemyCursor: {fileID: 2800000, guid: f154c12f41077da4f8f8269021808d0c, type: 3}
+  cursorHotspot: {x: 96, y: 96}
+--- !u!114 &114345759280396618
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1840918983409092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7feba1242fb56d944a1735ebb5538aa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerPriorities: 0900000008000000
 --- !u!114 &114875534455543868
 MonoBehaviour:
   m_ObjectHideFlags: 1
